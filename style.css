@@ -1,243 +1,241 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-   position: sticky;
-   top: 0px;
-   z-index: 1;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 
 nav {
-   background-color: #6F6AF7;
-   color: white;
-   display: flex;
-   justify-content: space-between;
-   padding: 10px;
+  background-color: #6f6af7;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .img1 {
-   margin: 18px 40px;
-   height: 30px;
+  margin: 18px 40px;
+  height: 30px;
 }
 
 nav ul {
-   display: flex;
-   list-style: none;
-   width: 560px;
-   justify-content: space-between;
+  display: flex;
+  list-style: none;
+  width: 560px;
+  justify-content: space-between;
 }
 
 nav ul li {
-   padding: 15px;
-   align-self: center;
-   font-family: 'DM Sans';
-   font-size: 22px;
+  padding: 15px;
+  align-self: center;
+  font-family: "DM Sans";
+  font-size: 22px;
 }
 
 nav ul li a {
-   cursor: pointer;
-   text-decoration: none;
-   color: white;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 nav ul li a img {
-   height: 5px;
-   margin-bottom: 5px;
+  height: 5px;
+  margin-bottom: 5px;
 }
 
-
 nav input {
-   margin: 15px 0 0 10px;
-   font-family: 'DM Sans';
-   padding: 9px;
-   width: 200px;
-   border-radius: 25px;
+  margin: 15px 0 0 10px;
+  font-family: "DM Sans";
+  padding: 9px;
+  width: 200px;
+  border-radius: 25px;
+  border: none;
 }
 
 nav label #search {
-   font-size: 14px;
+  font-size: 14px;
 }
 
 nav label .src {
-   height: 18px;
-   position: relative;
-   top: 5px;
-   right: 34px;
+  height: 18px;
+  position: relative;
+  top: 5px;
+  right: 34px;
 }
 
 .img2 {
-   height: 25px;
-   margin: 20px 45px;
+  height: 25px;
+  margin: 20px 45px;
 }
 
 .main {
-   display: inline-flex;
-   margin: 90px 0px 70px 80px
+  display: inline-flex;
+  margin: 90px 0px 70px 80px;
 }
 
 .main .left {
-   background-image: url("./images/Group.png");
-   background-repeat: no-repeat;
-   height: 432px;
-   width: 400px;
-   background-size: contain;
-   border: 15px;
+  background-image: url("./images/Group.png");
+  background-repeat: no-repeat;
+  height: 432px;
+  width: 400px;
+  background-size: contain;
+  border: 15px;
 }
 
 .main .middle {
-   background-color: #E5D8FF;
-   color: #6F7373;
-   border-radius: 15px;
-   font-family: 'DM Sans';
-   font-weight: 400;
-   line-height: 35px;
-   height: 385px;
-   width: 735px;
-   padding: 25px;
-   margin: 17px 18px 7px 18px;
+  background-color: #e5d8ff;
+  color: #6f7373;
+  border-radius: 15px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  line-height: 35px;
+  height: 385px;
+  width: 735px;
+  padding: 25px;
+  margin: 17px 18px 7px 18px;
 }
 
 .main .chat {
-   position: fixed;
-   top: 600px;
-   left: 1170px;
-   border: 2px solid black;
-   background-color: #fff;
-   border-radius: 50px;
-   height: 75px;
-   padding: 10px;
-   z-index: 2;
+  position: fixed;
+  top: 600px;
+  left: 1170px;
+  border: 2px solid black;
+  background-color: #fff;
+  border-radius: 50px;
+  height: 75px;
+  padding: 10px;
+  z-index: 2;
 }
 
 .aside {
-   display: block;
-   float: right;
-   position: sticky;
-   top: 87px;
-   margin-top: 190px;
+  display: block;
+  float: right;
+  position: sticky;
+  top: 87px;
+  margin-top: 190px;
 }
 
 .aside .icons {
-   height: 190px;
-   cursor: pointer;
+  height: 190px;
+  cursor: pointer;
 }
 
-
 .center {
-   display: flex;
-   justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .box {
-   font-family: 'DM Sans';
-   color: white;
-   margin: 10px;
-   padding: 12px 23px;
-   border-radius: 8px;
-   width: 200px;
-   line-height: 35px;
+  font-family: "DM Sans";
+  color: white;
+  margin: 10px;
+  padding: 12px 23px;
+  border-radius: 8px;
+  width: 200px;
+  line-height: 35px;
 }
 
 #box-1 {
-   background-color: #929DFF;
+  background-color: #929dff;
 }
 
 #box-2 {
-   background-color: #734CF2;
+  background-color: #734cf2;
 }
 
 #box-3 {
-   background-color: #D288FF;
+  background-color: #d288ff;
 }
 
 #box-4 {
-   background-color: #000000;
+  background-color: #000000;
 }
 
 .footer {
-   width: 1225px;
-   margin: 100px 55px;
-   background-color: #483EFF;
-   display: inline-flex;
-   border-radius: 10px;
+  width: 1225px;
+  margin: 100px 55px;
+  background-color: #483eff;
+  display: inline-flex;
+  border-radius: 10px;
 }
 
 .footer .left {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer .left {
-   margin: 10px;
+  margin: 10px;
 }
 
 .footer .left .container {
-   margin: 25px;
-   padding: 26px 45px;
-   font-family: 'DM Sans';
-   border-radius: 10px;
-   font-size: 20px;
-   font-weight: bold;
-   cursor: pointer;
+  margin: 25px;
+  padding: 26px 45px;
+  font-family: "DM Sans";
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .footer .left #box1 {
-   background-color: #BCE0F6;
-   color: black;
-
+  background-color: #bce0f6;
+  color: black;
 }
 
 .footer .left #box2 {
-   background-color: #483EFF;
-   border: 2px solid white;
-   color: white;
+  background-color: #483eff;
+  border: 2px solid white;
+  color: white;
 }
 
 .footer .right {
-   border-radius: 10px;
-   background-color: #fff;
-   margin: 25px;
-   height: 416px;
-   width: 904px;
-   padding: 56px 56px 56px 39px;
-   font-family: inter;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 25px;
+  height: 416px;
+  width: 904px;
+  padding: 56px 56px 56px 39px;
+  font-family: inter;
 }
 
 .footer .right h2 {
-   margin: 20px 0px;
-   font-family: 'Inter';
-   letter-spacing: 4px;
-   color: #04285A;
+  margin: 20px 0px;
+  font-family: "Inter";
+  letter-spacing: 4px;
+  color: #04285a;
 }
 
 .info li {
-   color: #143565
+  color: #143565;
 }
 
 .footer .info b {
-   margin: 22px 0px 0px 23px;
-   color: #04285A;
-   letter-spacing: 2px;
+  margin: 22px 0px 0px 23px;
+  color: #04285a;
+  letter-spacing: 2px;
 }
 
 .footer .right ul li {
-   list-style: none;
-   padding: 13px 0;
+  list-style: none;
+  padding: 13px 0;
 }
 
 .footer .right button {
-   position: relative;
-   top: 43px;
-   left: 688px;
-   padding: 11px 32px;
-   background-color: black;
-   color: white;
-   font-family: 'Roboto';
-   font-size: 20px;
-   border-radius: 10px;
-   z-index: 1;
-   cursor: pointer;
+  position: relative;
+  top: 43px;
+  left: 688px;
+  padding: 11px 32px;
+  background-color: black;
+  color: white;
+  font-family: "Roboto";
+  font-size: 20px;
+  border-radius: 10px;
+  z-index: 1;
+  cursor: pointer;
 }
